@@ -1,5 +1,4 @@
-package org.hibernate;
-
+package helo;
 import javax.swing.*;
 
 public class hlo {
@@ -9,7 +8,8 @@ public class hlo {
 
     private static void createAndShowGUI() {
         JFrame frame = new JFrame("Greeting Window");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
         frame.setSize(1000, 1000);
         frame.setLocationRelativeTo(null); // Center the window
 
@@ -39,6 +39,7 @@ public class hlo {
         frame.dispose(); // Close the window when done
     }
 }
+
 
 
 
